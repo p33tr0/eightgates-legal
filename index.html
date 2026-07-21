@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Eight Gates — Privacy Policy</title>
+<style>
+  :root {
+    --ink: #1f1d3a; --muted: #55536e; --line: #e4e2f0; --accent: #5b53d6;
+    --bg: #ffffff; --card: #faf9ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #e7e6f2; --muted: #a6a4c0; --line: #2b2942; --accent: #a9a2ff; --bg: #131225; --card: #1a1930; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; font-size: 16px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+  header { border-bottom: 2px solid var(--line); padding-bottom: 20px; margin-bottom: 28px; }
+  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.4px; }
+  .eyebrow { color: var(--accent); font-weight: 700; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
+  .updated { color: var(--muted); font-size: 14px; margin-top: 8px; }
+  h2 { font-size: 20px; margin: 34px 0 10px; padding-top: 6px; }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  p, li { color: var(--ink); }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 16px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 14.5px; display: block; overflow-x: auto; }
+  th, td { border: 1px solid var(--line); padding: 9px 11px; text-align: left; vertical-align: top; }
+  th { background: var(--card); font-weight: 700; }
+  code { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 90%; }
+  footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  .placeholder { color: #b4482e; font-weight: 700; }
+  @media (prefers-color-scheme: dark) { .placeholder { color: #ff9d7a; } }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Eight Gates</div>
+      <h1>Privacy Policy</h1>
+      <div class="updated">Last updated: July 2026</div>
+    </header>
+
+    <p>
+      This Privacy Policy explains how the mobile application <strong>Eight Gates</strong> (“the App”, “we”, “us”)
+      handles your information. Eight Gates is a personal tracking app for diary, mood, nutrition, workouts,
+      hydration, habits, tasks and cycle data. We designed it to be <strong>local-first</strong>: your entries are
+      stored on your device, not on our servers.
+    </p>
+
+    <h2>1. Who is responsible</h2>
+    <div class="card">
+      Peter Müller<br>
+      Waiblinger Str. 75<br>
+      71404 Korb, Germany<br>
+      Email: <a href="mailto:nodal.dev.official@gmail.com">nodal.dev.official@gmail.com</a>
+    </div>
+    <p class="muted">
+      The person above is the controller responsible for data processing in connection with the App
+      (Art. 4(7) GDPR).
+    </p>
+
+    <h2>2. Our core principle: your data stays on your device</h2>
+    <p>
+      All content you create in the App — diary entries, moods, voice notes, meals, workouts, water and
+      caffeine logs, habits, tasks, appointments, cycle data, weight and profile — is stored
+      <strong>locally on your device</strong> in an on-device database. We do not operate a user account
+      system and we do not copy or store this content on our own servers.
+    </p>
+    <p>
+      Because the data is local, you remain in control: you can export it, import it, or remove it at any
+      time by deleting entries or uninstalling the App.
+    </p>
+
+    <h2>3. When data leaves your device</h2>
+    <p>Some optional features require sending specific data to third-party services to work. This only happens
+      for the action you trigger, and only with the data needed for that action:</p>
+    <table>
+      <tr><th>Feature</th><th>What is sent</th><th>Recipient / processor</th><th>Purpose</th></tr>
+      <tr>
+        <td>AI analysis &amp; AI reports</td>
+        <td>The entries of the period you select (e.g. diary, meals, workouts, hydration), or the question you ask</td>
+        <td>Google (Gemini API)</td>
+        <td>To generate the requested analysis or answer</td>
+      </tr>
+      <tr>
+        <td>AI food photo recognition</td>
+        <td>The food photo you take</td>
+        <td>Google (Gemini API)</td>
+        <td>To recognise foods and estimate nutrition</td>
+      </tr>
+      <tr>
+        <td>AI food search</td>
+        <td>The text you type</td>
+        <td>Google (Gemini API)</td>
+        <td>To estimate nutrition values</td>
+      </tr>
+      <tr>
+        <td>Barcode scan &amp; product search</td>
+        <td>The scanned barcode or search term</td>
+        <td>Open Food Facts</td>
+        <td>To look up product and nutrition data</td>
+      </tr>
+      <tr>
+        <td>Crash &amp; error reporting</td>
+        <td>Technical diagnostics (error type, stack trace, app version, device model, OS version)</td>
+        <td>Sentry (EU / Germany region)</td>
+        <td>To detect and fix crashes and bugs</td>
+      </tr>
+    </table>
+
+    <h3>Google (Gemini API)</h3>
+    <p>
+      AI features are powered by Google’s Generative Language (Gemini) API. When you use an AI feature, the
+      relevant data described above is transmitted to Google for processing and returned to your device.
+      Google acts as a processor for this request. Please refer to
+      <a href="https://policies.google.com/privacy" rel="noopener">Google’s Privacy Policy</a> and the
+      <a href="https://ai.google.dev/gemini-api/terms" rel="noopener">Gemini API Terms</a> for details on how
+      Google handles API data.
+    </p>
+
+    <h3>Open Food Facts</h3>
+    <p>
+      Barcode lookups and product searches query the public
+      <a href="https://world.openfoodfacts.org/" rel="noopener">Open Food Facts</a> database. Only the barcode
+      or search term is sent; no personal entries are included.
+    </p>
+
+    <h3>Sentry (crash reporting)</h3>
+    <p>
+      We use Sentry to collect crash and error diagnostics so we can fix problems. Sentry is configured in its
+      <strong>EU (Germany) region</strong>. We disable the collection of personal identifiers, and we drop console
+      log breadcrumbs so that the content of your entries (such as diary or meal text) is not included in error
+      reports. Reports contain technical information such as the error, a stack trace, the app version and the
+      device/OS. See <a href="https://sentry.io/privacy/" rel="noopener">Sentry’s Privacy Policy</a>.
+    </p>
+
+    <h2>4. Device permissions</h2>
+    <p>The App may ask for the following permissions. You can grant or deny them, and change them later in your
+      device settings. Data from these sensors is used on your device; it is only transmitted if it is part of
+      an AI feature you trigger (e.g. a food photo).</p>
+    <ul>
+      <li><strong>Camera</strong> — to scan barcodes and take photos of meals.</li>
+      <li><strong>Photo library</strong> — to select a meal photo.</li>
+      <li><strong>Microphone</strong> — to record voice notes in the diary.</li>
+      <li><strong>Motion &amp; Fitness / Health data (steps)</strong> — to read your step count for activity and calorie estimates. Read on-device only.</li>
+      <li><strong>Location (GPS)</strong> — to track outdoor workouts (route, distance, pace). Stored locally on your device.</li>
+      <li><strong>Notifications</strong> — for local reminders (e.g. habits, tasks, diary). These are on-device notifications; no data is sent to us.</li>
+    </ul>
+
+    <h2>5. What we do not do</h2>
+    <ul>
+      <li>We do not sell your data.</li>
+      <li>We do not use advertising or advertising trackers.</li>
+      <li>We do not create user profiles for marketing.</li>
+      <li>We do not store your diary, health or nutrition content on our servers.</li>
+    </ul>
+
+    <h2>6. Legal bases (GDPR)</h2>
+    <ul>
+      <li><strong>Performance of the service you request</strong> (Art. 6(1)(b) GDPR): sending data to Google or Open Food Facts when you actively use an AI or lookup feature.</li>
+      <li><strong>Legitimate interest</strong> (Art. 6(1)(f) GDPR): crash and error diagnostics to keep the App stable and secure.</li>
+    </ul>
+
+    <h2>7. Data retention</h2>
+    <p>
+      Your entries remain on your device until you delete them or uninstall the App. Data sent to Google or
+      Open Food Facts is processed to fulfil the request and retained according to those providers’ policies.
+      Crash reports at Sentry are retained according to Sentry’s retention settings and then deleted.
+    </p>
+
+    <h2>8. Your rights</h2>
+    <p>Under the GDPR you have the right to access, rectify, erase, restrict and port your personal data, and to
+      object to processing. Because your content lives on your device, you can exercise most of these directly:</p>
+    <ul>
+      <li><strong>Access &amp; portability</strong>: use the in-app export function.</li>
+      <li><strong>Erasure</strong>: delete entries in the App, or uninstall the App to remove all local data.</li>
+    </ul>
+    <p>For any request, or to contact the supervisory authority, you can reach us at
+      <a href="mailto:nodal.dev.official@gmail.com">nodal.dev.official@gmail.com</a>. You also have the right to
+      lodge a complaint with a data protection supervisory authority.</p>
+
+    <h2>9. Children</h2>
+    <p>The App is not directed at children under 16. If you believe a child has provided data through the App,
+      please contact us.</p>
+
+    <h2>10. International transfers</h2>
+    <p>Some processors (e.g. Google) may process data outside the EU/EEA. Where this occurs, appropriate
+      safeguards such as the EU Standard Contractual Clauses apply, as described in the respective provider’s
+      policy. Sentry is used in its EU (Germany) region.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this Privacy Policy as the App evolves. The “Last updated” date at the top reflects the
+      current version. Material changes will be reflected here.</p>
+
+    <h2>12. Contact</h2>
+    <p>Questions about this Privacy Policy or your data:
+      <a href="mailto:nodal.dev.official@gmail.com">nodal.dev.official@gmail.com</a></p>
+
+    <footer>
+      Eight Gates — Privacy Policy · © 2026 Peter Müller
+    </footer>
+  </div>
+</body>
+</html>
